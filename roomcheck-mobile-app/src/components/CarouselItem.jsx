@@ -1,7 +1,7 @@
 import React from "react";
-import { View, StyleSheet, Text, Image, Dimension } from "react-native";
+import { View, StyleSheet, Text, Image, Dimensions } from "react-native";
 
-const { width, height} = Dimension.get('window');
+const { width, height} = Dimensions.get('window');
 
 const CarouselItem = ({ item }) => {
     return (
@@ -62,3 +62,5 @@ const styles = StyleSheet.create({
         elevation: 5,
     }
 })
+
+export default CarouselItem
